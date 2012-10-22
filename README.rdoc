@@ -1,0 +1,28 @@
+= GitHub Readme To Html
+
+Convert your GitHub readme compatible markup into html files
+
+== Installation
+You can use latest gem:
+  gem install githubreadme-to-html
+
+== Usage
+Use this tool so you can see a preview of your README on how it will look like on GitHub.
+
+  gth <filename.ext> 
+
+Example
+  gth README.rdoc
+
+will generate and open a README.html into your default browser.
+
+== Additional note
+
+This tool uses GitHub Markup - https://github.com/github/markup 
+so should support all markup files listed on their GitHub page.
+  
+== Copyright
+
+Copyright (c) 2012 David Ang. See LICENSE.txt for
+further details.
+
