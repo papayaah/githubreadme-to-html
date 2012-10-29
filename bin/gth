@@ -31,7 +31,7 @@ else
   file = File.open(ARGV[0], 'rb')
   body = file.read
 
-  html = GitHub::Markup.render('README.rdoc', body)
+  html = GitHub::Markup.render(ARGV[0], body)
 
   File.open('README.htm', 'w') {|f| f.write(header + html + footer) }
 
